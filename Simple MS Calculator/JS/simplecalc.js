@@ -29,13 +29,13 @@ function back() {
 function clearentry() {
   let p1 = document.getElementById("output").value;
   let str = p1.split("");
-  console.log(str);
+  //console.log(str);
   clr();
   for (let i = str.length - 1; i >= 0; i--) {
     if (str[i]>0) str.pop();
     else {
       p1 = str.join("");
-      console.log(p1);
+      //console.log(p1);
       display(p1);
       return;
     }
