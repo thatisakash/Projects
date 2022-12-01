@@ -1,0 +1,40 @@
+.navbar{
+    margin: 0;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 400px;
+      
+    
+}
+input{
+    width: 400px;
+}
+.main{   
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    height:400px;
+}
+
+.btn{
+    width:100px;
+    background-color: black;
+}
+
+.btn:hover{
+    background-color: chartreuse;
+}
+
+.button-group{
+    border:solid;
+    height:auto;    
+}
+
+body{
+    margin: 200px 450px;
+    background-color: whitesmoke;
+    overflow: hidden;
+
+}
+
